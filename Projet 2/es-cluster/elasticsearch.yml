@@ -1,0 +1,7 @@
+# Contenu du fichier elasticsearch.yml
+xpack.security.enabled: false
+cluster.name: my-elasticsearch-cluster
+node.name: node-1
+network.host: 0.0.0.0
+discovery.seed_hosts: ["es01", "es02", "es03"]
+cluster.initial_master_nodes: ["es01", "es02", "es03"]
